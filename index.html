@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>counter app</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <nav>
-    <a href="index.html">home</a>
-   <a href="alert.html">alert</a>
-   <a href="dom.html">DOM manipulation</a>
-   <a href="event.html">event</a>
-   <a href="form.html">form</a>
-   <a href="array.html">array</a>
-   <a href="if_else.html">if_else</a>
-   </nav>
-   <div>
-    <h1>Welcome to javascript class</h1>
-    <p>this is my first class</p>
-   </div> 
+  <div class="counter-container">
+    <h2>counter app</h2>
+    <p id="count">0</p>
+    <button id="increase" onclick="increasecount()">*/increase*/</button>
+    <button id="decrease" onclick="decreasecount()">/*decrease*/</button>
+    <button id="reset" onclick="resetcount()">/*reset*/</button>
+  </div> 
+  <script src="script.js"></script> 
+
 </body>
 </html>
